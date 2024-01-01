@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "7.2.0",
+    "generators": {
+      "angular": {
+        "generatorName": "typescript-angular",
+        "inputSpec": "#{cwd}/resources/generated/templates/weather-api-openapi-spec.json",
+        "output": "#{cwd}/resources/generated/weather-service",
+        "modelNameSuffix": ".model",
+        "additionalProperties": {
+          "supportsES6": "true",
+          "withInterfaces": "true",
+          "fileNaming": "kebab-case"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.gitignore
+.openapi-generator-ignore
+README.md
+api.module.ts
+api/api.ts
+api/values.service.ts
+api/values.serviceInterface.ts
+api/weather-forecast.service.ts
+api/weather-forecast.serviceInterface.ts
+configuration.ts
+encoder.ts
+git_push.sh
+index.ts
+model/models.ts
+model/weather-forecast-model.ts
+param.ts
+variables.ts
